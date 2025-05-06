@@ -9,18 +9,22 @@ export const MainArticle = () => {
         <source media="(min-width: 641px)" srcSet={imageDesktop} />
         <img src={imageMobile} alt="Articulo principal imagen" />
       </picture>
-      <div className="sm:flex">
+      <div className="sm:flex xl:gap-8">
         <div className="flex-1 py-6">
-          <h2 className="text-[40px] font-bold leading-none sm:text-[58px]">The Bright Future of Web 3.0?</h2>
+          <h2 className="text-5xl font-bold leading-none sm:text-[58px]">
+            The Bright Future of Web 3.0?
+          </h2>
         </div>
 
-        <div className="flex-1 pt-9">
-          <p className="text-sm mb-10 sm:text-base">
+        <div className="flex-1 pt-6">
+          <p className="text-base text-DarkGrayishBlue mb-10 sm:text-base">
             We dive into the next evolution of the web that claims to put the
             power of the platforms back into the hands of the people. But is it
             really fulfilling its promise?
           </p>
-          <button className="bg-SoftRed w-[185px] h-12 uppercase text-OffWhite hover:bg-VeryDarkBlue"> Read more</button>
+          <button className="bg-SoftRed w-[185px] h-12 uppercase text-VeryDarkBlue font-bold hover:bg-VeryDarkBlue hover:text-OffWhite cursor-pointer">
+            Read more
+          </button>
         </div>
       </div>
     </section>
