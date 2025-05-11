@@ -31,9 +31,12 @@ const reviews = [
 ];
 
 export const ReviewContainer = () => {
+
+  const positionClass = ["xl:place-self-start", "xl:place-self-center", "xl:place-self-end"];
+
   return (
-    <div className="flex flex-col gap-4">
-      {reviews.map(({id, name, status, review, imgUrl}) => {
+    <div className="flex flex-col gap-4 xl:flex-row xl:h-[266px] xl:gap-[30px]">
+      {reviews.map(({id, name, status, review, imgUrl}, index) => {
         return (
           <ReviewCard
             key={id}
@@ -41,6 +44,7 @@ export const ReviewContainer = () => {
             status={status}
             review={review}
             imgUrl={imgUrl}
+            className={positionClass[index]}
           />
         );
       })}
