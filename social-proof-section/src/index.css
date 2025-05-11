@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme{
+    --color-very-dark-magenta: hsl(300, 43%, 22%);
+    --color-soft-pink: hsl(333, 80%, 67%);
+    --color-dark-grayish-magenta: hsl(303, 10%, 53%);
+    --color-light-grayish-magenta: hsl(300, 24%, 96%);
+    --color-white: hsl(0, 0%, 100%);
+
+    --font-League-Spartan: "League Spartan", sans-serif;
+}
+
+@font-face {
+    font-family: "League Spartan";
+    font-style: normal;
+    font-weight: 400, 500, 700;
+    font-display: swap;
+    src: url(../src/assets/fonts/League_Spartan/LeagueSpartan-VariableFont_wght.ttf) format("woff2");
+}
