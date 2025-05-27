@@ -9,3 +9,6 @@ Seccion de links personales, hecho con React y Tailwind CSS. Hecho a partir de l
 
 **4.Recipe Page Main**
 Pagina de receta en particular, hecho con React y Tailwind CSS. Hecho a partir de los retos de esta pagina: **https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm**
+
+**5.Blog Preview Card**
+Card para un blog, hecho con React y Tailwind CSS. Hecho a partir de los retos de esta pagina: **https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS**
