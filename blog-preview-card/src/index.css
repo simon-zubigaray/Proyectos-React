@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@theme{
+    --color-custom-Yellow: hsl(47, 88%, 63%);
+    --color-custom-White: hsl(0, 0%, 100%);
+    --color-custom-Gray-500: hsl(0, 0%, 42%);
+    --color-custom-Gray-950: hsl(0, 0%, 7%);
+
+    --font-Figtree: "Figtree", sans-serif;
+}
+
+@font-face{
+    font-family: "Figtree";
+    font-style: normal;
+    font-weight: 500, 800;
+    font-display: swap;
+    src: url(../src/assets/fonts/Figtree-VariableFont_wght.ttf) format("woff2");
+}
